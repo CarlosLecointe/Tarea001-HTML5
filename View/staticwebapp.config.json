@@ -1,5 +1,14 @@
 {
   "navigationFallback": {
     "rewrite": "/index.html"
+  },
+  "routes": [
+    {
+      "route": "/Images/*",
+      "serve": "/Images/:path"
+    }
+  ],
+  "mimeTypes": {
+    ".png": "image/png"
   }
 }
